@@ -1,0 +1,135 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Lato", sans-serif;
+}
+h1 {
+  font-weight: 900;
+}
+.head-btn {
+  background-color: rgba(146, 65, 221, 0.911);
+  color: rgb(255, 255, 255);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+.width {
+  width: 100%;
+  height: 60vh;
+  background-color: #79797921;
+}
+#basic-addon2 {
+  background-color: rgb(14, 197, 30);
+  color: #fff;
+}
+.input-group {
+  width: 550px;
+  padding: 10px;
+}
+.form-control {
+  padding: 15px;
+}
+.price {
+  /* display: block; */
+  font-weight: 900;
+  font-size: 3rem;
+  /* height: 100px; */
+}
+.card {
+  border-radius: 15px;
+}
+.cards {
+  margin-left: -10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.dashed {
+  border-bottom: #79797921 dashed;
+}
+.parent {
+  width: 100%;
+  height: 90px;
+  white-space: nowrap;
+}
+.child {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+}
+.parent-e {
+  height: 300px;
+}
+.remove {
+  background-color: chocolate;
+}
+#users {
+  background-color: transparent;
+  width: 60px;
+  /* margin-bottom: 10px; */
+  color: white;
+  border: none;
+}
+
+#range {
+  background: rgba(203, 218, 250, 0.699);
+  height: 10px;
+  border-radius: 15px;
+  color: #fff;
+  -webkit-appearance: none;
+}
+
+/* #range:hover{
+    background: #fff;
+} */
+
+#range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: url("https://cdn2.iconfinder.com/data/icons/arrow-161/64/arrow-double-horizontal-max-256.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fff;
+  cursor: pointer;
+}
+.price1 {
+  margin-bottom: 10px;
+}
+
+.x {
+  margin-right: 0px;
+  margin-left: 210px;
+  font-size: 12px;
+}
+.y {
+  margin-left: 0px;
+  font-size: 12px;
+}
+.small,
+.x,
+.y {
+  opacity: 0.7;
+}
+
+.flt-btn {
+  position: fixed;
+  border-radius: 20px;
+  padding: 10px;
+  height: 70px;
+  width: 70px;
+  right: 57px;
+  bottom: 30px;
+  background-color: rgb(25, 29, 248);
+  transition: all 0.2s ease-in 0s;
+  z-index: 9999;
+  cursor: pointer;
+}
